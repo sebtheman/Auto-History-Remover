@@ -1,2 +1,2 @@
 # GTKOnline
-A chromium extension that changes the theme of sites to use your local GTK theme.
+A chromium extension that automatically deletes your history after a certain amount of time
