@@ -4,3 +4,10 @@ body {
   position: relative;
   vertical-align:middle;
 }
+#footertext {
+  text-align: center;
+}
+#titletext {
+  text-align: center;
+  font-weight: bolder;
+}
