@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
   
-    "name": "GTKOnline",
-    "description": "Applies GTK styles to any website you visit",
+    "name": "Auto History Remover",
+    "description": "Deletes your history after a certain amount of time",
     "version": "0.1",
   
     "browser_action": {
@@ -15,7 +15,7 @@
     "content_scripts": [
         {
           "matches": ["<all_urls>"],
-          "js": ["extension_resources/jquery.js", "extension_resources/extension.js"],
+          "js": ["extension_resources/extension.js"],
           "run_at": "document_idle"
         }
       ]
