@@ -88,3 +88,8 @@ input:checked + .slider:before {
   margin-left: auto;
   margin-right: auto;
 }
+#clock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
