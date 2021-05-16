@@ -1,13 +1,12 @@
-/* Click listener for when we need it
-document.getElementById('clickMe').addEventListener('click', function() {
-    var x = document.getElementById('clickMe');
-    if (x.textContent == "Change styling to GTK") {
-        document.getElementById('clickMe').textContent="Change styling to Classic";
+document.getElementById('switchforextension').addEventListener('click', function() {
+    var x = document.getElementById('switchforextension');
+    var ischeckboxchecked = x.checked;
+    console.log(ischeckboxchecked)
+    console.log(x.checked)
+    if (x.checked == true) {
+        console.log("The if statement says the checkbox is checked");
     }
     else {
-        document.getElementById('clickMe').textContent="Change styling to GTK";
+        console.log("The if statement says the checkbox is not checked");
     }
 });
-*/
-
-
